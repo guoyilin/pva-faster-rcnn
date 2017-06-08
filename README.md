@@ -1,6 +1,6 @@
 Update:
 1. add newest caffe, support cudnn v5. 
-2. use data format for faster-rcnn train. 
+
 ## PVANet: Lightweight Deep Neural Networks for Real-time Object Detection
 
 by Sanghoon Hong, Byungseok Roh, Kye-hyeon Kim, Yeongjae Cheon, Minje Park (Intel Imaging and Camera Technology)
