@@ -336,7 +336,7 @@ class number_detection(imdb):
 
 if __name__ == '__main__':
     from datasets.number_detection import number_detection
-    d = number_detection('NDTrain','/data/yilin.gyl/project/woniu/fujiafangpai/')
+    d = number_detection('Train','/home/guoyilin/project/pva-faster-rcnn/')
     res = d.roidb
     from IPython import embed; embed()
 

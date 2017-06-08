@@ -31,10 +31,9 @@ for year in ['2015']:
         name = 'coco_{}_{}'.format(year, split)
         __sets[name] = (lambda split=split, year=year: coco(split, year))
 
-name = 'NDTrain'
-image_set = 'NDTrain'
-devkit = '/data/yilin.gyl/project/woniu/fujiafangpai/frcnn_train_data_20170410/'
-#devkit = '/gruntdata/yilin.gyl/faster-rcnn_multiscale_20160918/data/NDTrain'
+name = 'Train'
+image_set = 'Train'
+devkit = '/home/guoyilin/project/pva-faster-rcnn/data/Train/'
 __sets[name] =  (lambda image_set=image_set,devkit=devkit: number_detection(image_set,devkit))
 def get_imdb(name):
     """Get an imdb (image database) by name."""
